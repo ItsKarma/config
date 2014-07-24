@@ -15,14 +15,14 @@ set -o vi
 if [ $UID -eq 0 ]
 then
   #root user color
-  UC="${RED}"
+  UC='\[\e[01;31m\]'
 else
   #normal user color
-  UC="${BWHITE}"
+  UC='\[\e[00;36m\]'
 fi
 #default color
-DF="${BWHITE}"
-PS1="\n\w\n${UC}\u${DF}@\h\\$ "
+DF='\[\e[00;37m\]'
+PS1="${DF}\n\w\n${UC}\u${DF}@\h\\$ "
 export PS1
 
 # User specific environment and startup programs
@@ -38,5 +38,5 @@ export EDITOR
 alias l='ls -lrth'
 alias ll='ls -l'
 alias la='ls -la'
-alias chchef='cd ~/src/chef-repo/'
+alias cdgit='cd ~/src/'
 alias gs='git status'
