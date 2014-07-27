@@ -27,6 +27,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 alias l='ls -lrth'
 alias ll='ls -lh'
 alias la='ls -lah'
+alias cl='clear'
 alias cdgit='cd ~/src/'
 alias cdchef='cd ~/src/chef-repo'
 alias gs='git status'
