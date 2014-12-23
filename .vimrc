@@ -4,9 +4,6 @@ set visualbell
 "Allow backspacing over everything in insert mode.
 set bs=2
 
-"Always set autoindenting on.
-set ai
-
 "Show the cursor position all the time.
 set ruler
 
