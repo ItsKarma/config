@@ -8,17 +8,14 @@ fi
 set -o vi
 
 # User specific PS1
-HOST=$(hostname -s); export HOST
-PS1='
+export HOST=$(hostname -s)
+export PS1='
 ${BOLD}${PWD}${REG}
-${LOGNAME}($HOST):'; export PS1
+${LOGNAME}($HOST):'
 
 # User specific environment and startup programs
-PATH=$PATH:$HOME/bin
-export PATH
-
-EDITOR=vim
-export EDITOR
+export PATH=$PATH:$HOME/bin
+export EDITOR=vim
 
 export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 [ -f /usr/bin/virtualenvwrapper.sh ] && source /usr/bin/virtualenvwrapper.sh
@@ -26,6 +23,7 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
 # Unlimited History! MUAHAHAHA
 export HISTFILESIZE=
 export HISTSIZE=
+export HISTTIMEFORMAT="[%m-%d-%R %r] "
 
 # User specific alias'
 alias l='ls -lrth'
