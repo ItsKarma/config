@@ -8,42 +8,52 @@ Software to install
 ======
 
 # Tools
-HomeBrew
-Virtualbox
-Docker
-Terraform
-Packer
-Atom
-iTerm
+HomeBrew  
+Virtualbox  
+Docker  
+Terraform  
+Packer  
+Atom  
+iTerm  
+Wireshark  
+sql workbench j  
+sequelpro
 
 
 # Productivity
-RSS Bot
-Alfred
-Rescue Time
-Dropbox
-One Password
-KeePassX
-Evernote
+RSS Bot  
+Alfred  
+Rescue Time  
+Dropbox  
+One Password  
+KeePassX  
+Evernote  
+FileZilla  
+VNC Viewer  
 
 # Communication
-HipChat
-Slack
-Discord
-Skype
-TeamSpeak
-Textual
-
+HipChat  
+Slack  
+Discord  
+Skype  
+TeamSpeak  
+Textual/LimeChat  
+Dolby Axon  
+GoToMeeting  
+join.me  
+zoom.us  
 
 # Browser
-Chrome
-Firefox
+Chrome  
+Firefox  
+IceCat  
 
 # Tools
-Disk Inventory X
+Disk Inventory X  
+VLC  
 
 # Art
-Unity
-Qubicle
-TexturePacker
-Piskel
+Unity  
+Qubicle  
+TexturePacker 
+Piskel  
