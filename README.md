@@ -13,6 +13,7 @@ Virtualbox
 Docker  
 Terraform  
 Packer  
+chefdk  
 Atom  
 iTerm  
 Wireshark  
