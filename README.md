@@ -25,7 +25,7 @@ RSS Bot
 Alfred  
 Rescue Time  
 Dropbox  
-One Password  
+1Password  
 KeePassX  
 Evernote  
 FileZilla  
