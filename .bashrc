@@ -13,6 +13,11 @@ export PS1='
 ${BOLD}${PWD}${REG}
 ${LOGNAME}($HOST):'
 
+# go
+export GOPATH=$HOME/go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+
 # User specific environment and startup programs
 export PATH=$PATH:$HOME/bin
 export EDITOR=vim
@@ -30,8 +35,14 @@ alias l='ls -lrth'
 alias ll='ls -lh'
 alias la='ls -lah'
 alias cl='clear'
-alias cdgit='cd ~/src/'
-alias cdchef='cd ~/src/chef-repo'
+alias cdscripts='cd ~/scripts'
+alias cdgit='cd ~/src'
+alias cdsrc='cd ~/src'
+alias cdlid='cd ~/src/leadid'
+alias cdchef='cd ~/src/leadid/chef-repo'
+alias cddevops='cd ~/src/leadid/devops'
+alias cdchef='cd ~/src/leadid/chef-repo'
+alias cdpacker='cd ~/src/leadid/devops/packer'
 alias gs='git status'
 alias psj='ps -ef | grep java | grep -v grep'
 alias psz='ps -ef | grep zabbix | grep -v grep'
